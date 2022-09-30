@@ -14,11 +14,6 @@
  *= require_self
  */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   background-color: #fff;
@@ -36,3 +31,21 @@ p,ol,ul,td {
   margin: 33px;
 
 }
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+a {
+  color: #000;
+}
+
+#notice {
+  color: green;
+}
+
