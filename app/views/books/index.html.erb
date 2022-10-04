@@ -1,5 +1,6 @@
 <p id="notice"></p>
 <h1>Books</h1>
+<% @books.each do |book| %>
 <table>
   <thead>
     <tr>
@@ -79,7 +80,10 @@
         <a data-confirm="Are you sure?" class="destroy_102384" rel="nofollow" deta-method="delete" href="/books/102384">Destroy</a>
       </td>
     </tr>
+    <td><%= book.title %></td>
+    <td><%= book.body %></td>
   </tbody>
+<% end %>
 </table>
 
 
