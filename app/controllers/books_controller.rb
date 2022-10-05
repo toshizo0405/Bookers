@@ -17,6 +17,7 @@ class BooksController < ApplicationController
   end
 
   def edit
+    @book=Book.find(params[:id])
   end
 
   private
