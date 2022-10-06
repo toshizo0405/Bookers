@@ -60,3 +60,7 @@ a:visited {
 libel {
   display: block
 }
+
+p.notice{
+  color: green;
+}
