@@ -19,10 +19,10 @@
       </td>
 
       <td>
-        <a class="edit_1" href= "/books/1/edit">Edit</a>
+        <%= link_to "Edit", edit_book_path(book.id) %>
       </td>
       <td>
-        <a data-confirm="Are you sure?" class="destroy_1" rel="nofollow" deta-method="delete" href="/books/1">Destroy</a>
+        <%= link_to "Destroy", book_path(book.id), method: :delete, "data-confirm" => "本当に削除しますか？" %>
       </td>
 
     </tr>
