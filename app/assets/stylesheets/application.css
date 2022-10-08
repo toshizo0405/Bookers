@@ -64,3 +64,8 @@ libel {
 p.notice{
   color: green;
 }
+
+.error {
+  padding: 2px;
+  background-color: red;
+}
